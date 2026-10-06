@@ -1,0 +1,52 @@
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# Private keys / certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==============================
+# IDE / Editors
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+
+# ==============================
+# PHPUnit / Test Coverage
+# ==============================
+.phpunit.result.cache
+coverage/
+
+# ==============================
+# Composer
+# ==============================
+vendor/bin/
+
+# KYC / sensitive uploaded documents
+storage/kyc/
+
+# Runtime session data
+storage/sessions/
